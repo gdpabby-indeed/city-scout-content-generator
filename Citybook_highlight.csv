@@ -1,0 +1,153 @@
+,Section,highlight trait,related_metric,data_ranking,description
+City Scale,Population,Mega city,population (key metric),top 10 cities,"city_name is a mega city, it has 2,352,295 people lives in, ranking 7th on our city list
+This city ranks the 7th on our city list, has a population of 2,352,295 people.
+This city has 2,352,295  citizens, ranking 7th on our city list."
+,,Huge city,,top 25%,"city_name is a huge city, it has 952,295 people lives in, ranking 85th on our city list
+City_name is a megacity with a population of 952,295 inhabitants, making it the seventh most populous city on our city list.
+City_name, ranks the 85th on our city list, has a population of 952,295 people.
+This city has 952,295 citizens, ranking 85th on our city list. "
+,MedianAge,Low median age,median age,top 25%,"city_name has a high median age, the median age is 37.5, ranking 201st
+The median age of city_name is 37.5, which places it in the 201st position.
+City name has a high median age of 37.5, which ranks the 201st on our city list. "
+,,High median age,,below 75%,"city_name has a low median age, the median age is 26.5, ranking 31st
+The median age of the city name is 26.5, putting it in 31st place. 
+City name has a low median age of 26.5, which ranks the 31st on our city list. "
+,Economy,Wealthy city,GDP (key metric),"two of below metrics are top 25%:
+GDP
+income per capita
+poverty rate
+median household income
+six figure household percentage","city_name is a wealthy city, the GDP in city_name is $255,363,017
+City_name is a prosperous city with a GDP of $255,363,017.
+The GDP of city_name is $255,363,017, making it an affluent city.
+"
+,,,income per capita ,,"city_name is a wealthy city, the income per capita in city_name is $255,363, ranking 18th
+City_name is an affluent city, with a per capita income of $255,363, ranking 18th on our city list. 
+City_name is a prosperous city. It has a $255,363 income per capita, which ranks 18th on the list."
+,,,poverty rate,,"city_name is a wealthy city, the poverty rate in city_name is 3.2%, ranking 18th
+City_name is a prosperous city with a poverty rate of 3.2 percent, ranking 18th on our city list.
+City_name is an affluent city with a relatively low 3.2 percent poverty rate, placing 18th on our city list."
+,,,median household income (key metric),,"city_name is a wealthy city, the median household income in city_name is $755,363, ranking 12th
+City_name is an affluent city, with a median household income of $755,363, ranking 12th on our city list.
+City_name is prosperous. The median household income is $755,363 for this city, which ranks the 12th on our city list."
+,,,six figure household percentage,,"city_name is a wealthy city, the six-figure household percentage in city_name is 3.6%, ranking 18th
+City_name is a prosperous city. Its six-figure household percentage is 3.6 percent, placing the18th on the city list.
+City_name is affluent. It ranks 18th in our city list with a six-figure household rate of 3.6 percent."
+,,High housing prices,median home value,top 30%,"the housing prices in city_name is high, it got $65,593 per house, ranking 24th on our city list
+The property costs in city_name are relatively high. It ranks 24th on our city list at $65,593 per house.
+The cost of real estate in city_name is pretty expensive. At $65,593 per dwelling, it is the 24th most expensive city on our list."
+,,Low housing prices,,below 70%,"the housing prices in city_name is really low, it got $25,593 per house, ranking 248th on our city list
+The property costs in city_name are quite low. It ranks 248th on our city list at  $25,593 per house.
+The cost of real estate in city_name is pretty affordable. At $25,593 per dwelling, it is the 248th least expensive city on our list."
+,Employment,Good job prospects,Job opportunity,"one of below metrics are top 25%:
+Job opportunity
+labor force percentage
+unemployment rate","city_name has a large volume of job openings because the Job opportunity is 52,352,206, ranking 59th on our city list
+The Employment Opportunity is 52,352,206, city_name has a large number of job vacancies, placing the 59th on our city list.
+The Employment Opportunity is 52,352,206, and city_name is 59th on our list of cities with a significant number of job openings."
+,,,labor force percentage,,"city_name has a large volume of job openings because the labor force percentage is 89.2%, ranking 59th in our city list
+The labor force percentage is 89.2%. City_name has a large number of job vacancies, placing the 59th on our city list.
+The Employment Opportunity is 52,352,206, and city_name is 59th on our list of cities with a significant number of job openings.
+89.2 percent of the population are employed. City_name, has a lot of employment openings which ranks the 59th city on our list."
+,,,unemployment rate,,"city_name has a good job prospects because the unemployment rate is 2.2%, ranking 29th on our city list
+The unemployment rate in city name is as low as 2.2 percent, which places it 29th on our list of cities with decent job prospects.
+The unemployment rate in city name is as low as 2.2 percent, ranking it 29th among cities with good job prospects on our list."
+City Growth,Growth,A fast growing city,population growth percentage,top 25%,"city_name is a fast population growth city based on the last 3 years data, ranking 42nd
+Based on the last three years' statistics, city_name is a demographic fast-growing city, ranked 42nd.
+According to statistics from the last three years, city_name is a demographically fast-growing city, ranking 42nd.
+According to statistics from the previous three years, city_name is the 42nd most populous city in our city list."
+,,Slow population growth,,below 25%,"city_name is a slow population growth city based on the last 3 years data, ranking 246th
+Based on the last three years' statistics, city_name is a demographic slow-growing city, ranked 246th.
+According to statistics from the last three years, city_name is a demographically slow-growing city, ranking 246th.
+According to statistics from the previous three years, city_name is the 246th least populous city in our city list."
+,,Fast economic growth,GDP growth percentage (key metric),GDP growth percentage (key metric) are top 25% or below 25%:,"""city_name is a fast economic growth city based on last 3 years data, ranking 42th
+Based on the last three years' statistics, city_name is a fast economic growing city, ranked 42nd.
+City_name, which is placed 42nd in terms of economic growth over the previous three years, is a fast-growing city.
+City name is a fast-growing city, ranking 42nd in terms of economic growth over the preceding three years."""
+,,Slow economic growth,,,"city_name is a slow economic growth city based on the last 3 years data, ranking 246th
+Based on the last three years' statistics, city_name is a slow economic growing city, ranked 246th in our city list.
+City_name, which is placed the 246th in terms of economic growth over the previous three years, is a slow-growing city.
+City name is a slow-growing city, ranking the 246th in terms of economic growth over the preceding three years."
+,,Potential housing prices ,median home value growth percentage (key metric),top 25%,"city_name has a potential housing price in last 3 years, ranking 23th
+In the previous three years, city_name has ranked 23rd in prospective housing price.
+City_name has rated 23rd at potential real estate price over the last three years."
+Living Cost,Grocery,Inexpensive grocery price,Grocery Index,top 25%,"Grocery price in city_name is inexpensive, the index is 89.5, ranking 24th
+The cost of groceries in city_name is relatively low. The index is 89.5, placing 24th on our city list.
+The cost of groceries is comparatively cheap in city_name. The index is 89.5, which places it 24th on our list of cities."
+,,Expensive grocery price,,below 25%,"Grocery price in city_name is expensive, the index is 89.5, ranking 24th
+The cost of groceries in city_name is relatively high. The index is 89.5, placing 24th on our city list.
+The cost of groceries is comparatively expensive in city_name. The index is 89.5, which places it 24th on our list of cities."
+,Housing,Affordable housing,Housing Index,top 25%,"Housing price in city_name is affordable, the index is 89.5, ranking 24th
+The cost of housing in city_name is affordable. The index is 89.5, which places it 24th on our city list.
+Housing in city_name is reasonably priced. The index is 89.5, putting it 24th on our list of cities.
+The cost of real estate is affordable. It ranks 24th on our list of cities with an index of 89.5."
+,,Unaffordable housing,,below 25%,"Housing price in city_name is unaffordable, the index is 89.5, ranking 24th
+The cost of housing in city_name is unaffordable. The index is 89.5, which places it 24th on our city list.
+Housing in city_name is highly-priced. The index is 89.5, putting it 24th on our list of cities.
+The cost of real estate is unaffordable. It ranks 24th on our list of cities with an index of 89.5."
+,Utilities,Inexpensive utilities price,Utilities index,top 25%,"Utilities expend in city_name is inexpensive, the index is 89.5, ranking 24th
+The cost of utilities in city_name is relatively low. The index is 89.5, which places it 24th on our city list.
+The cost of utilities under the city_name is minimal. The index is 89.5, putting it 24th on our list of cities."
+,,Expensive utilities price,,below 25%,"Utilities expend in city_name is expensive, the index is 89.5, ranking 24th
+The cost of utilities in city_name is relatively high. 
+The cost of utilities under the city_name is expensive. The index is 89.5, putting it 24th on our list of cities."
+,Healthcare,Inexpensive healthcare price,Healthcare index,top 25%,"Healthcare expend in city_name is inexpensive, the index is 89.5, ranking 24th
+The cost of healthcare in city_name is relatively low. The index is 89.5, which places it 24th on our city list.
+In city_name, healthcare expenditure is inexpensive. The index is 89.5, putting it 24th on our list of cities."
+,,Expensive healthcare price,,below 25%,"Healthcare expend in city_name is expensive, the index is 89.5, ranking 24th
+The cost of healthcare in city_name is relatively high. The index is 89.5, which places it 24th on our city list.
+In city_name, healthcare expenditure is expensive. The index is 89.5, putting it 24th on our list of cities."
+,Good & Service,Inexpensive good&service price,Good&service index,top 25%,"Good&service in city_name is inexpensive, the index is 89.5, ranking 24th
+The cost of goods and services in city name is relatively low. The index is 89.5, which places it 24th on our city list.
+In city_name, the cost of goods and services is comparatively low. The index is 89.5, putting it 24th on our list of cities."
+,,Expensive good&service price,,below 25%,"Good&service in city_name is expensive, the index is 89.5, ranking 24th
+The cost of goods and services in city_name is expensive. The index is 89.5, which places it 24th on our city list.
+In city_name, the cost of goods and services is comparatively high. The index is 89.5, putting it 24th on our list of cities."
+,Summer,Hot summer,summer high,top 25%,"city_name's summer is hot, the average temperature in winter is 37°C, ranking 12th
+Summers in city name is hot, while the average temperature in winter is 37°C, which ranks the 12th warmest city in our city list. 
+The temperate in city_name is hot. It ranks the 12nd in our list, with an average winter temperature of 37°C."
+,,Cool summer,,below 25%,"city_name's summer is cool, the average temperature in winter is 22°C, ranking 265th
+Summers in city_name are cool, while the average winter temperature is 22°C, which ranks the 265th in our city list. 
+The temperate in city_name is cool. The average winter temperature is 22°C, placing it the 265th warmest city on our list.
+The weather in city_name is cool. It ranks the 265th in our list, with an average winter temperature of 22°C."
+,Winter,Warm winter,winter low,top 25%,"city_name's winter is warm, the average temperature in winter is 15°C, ranking 42nd
+Winter in city_name is warm, with an average temperature of 15°C, ranking 42nd on our city list. 
+With an average temperature of 15°C in the winter, city_name ranks 42nd on our list of warmest cities."
+,,Cold winter,,below 25%,"city_name's winter is cold, the average temperture in winter is -13°C, ranking 257th
+Winter in city_name is cold, with an average temperature of -13 °C, ranking 257th on our city list. 
+With an average temperature of -13°C in the winter, city_name ranks 257th on our list of coldest cities."
+,Rain,Lot's of raining,avg. rainfall per year,top 15%,"The weather in this city is very wet, rainfall per year is 89mm, ranking 23rd
+The weather in city_name is rainy, with an annual rainfall of 89mm, placing it 23rd on our city list.
+This city has a wet climate, with an annual rainfall of 89mm, ranking it 23rd on our list. "
+,,Lot's of snowing,avg. snow per year,top 15%,"The weather in this city is very dry, rainfall per year is 19mm, ranking 238th
+The weather in city_name is dry, with an annual rainfall of 19mm, placing it 238th on our city list.
+This city has a dry climate, with an annual rainfall of 19mm, ranking it 238th on our list. "
+,environment,Crowded city,density,top 25%,"city_name has 5.7 people in 1 sqr, pretty crowded compares to other cities, ranking 230th
+In comparison to other cities, city_name has 5.7 people per square kilometer, making it relatively populated, ranking 230th on our list.
+Compared to other cities, city_name has a population density of 5.7 persons per square kilometer, placing it 230th on our list."
+,,Low city density,,below 25%,"city_name has 2.1 people in 1 sqr, ranking 17th
+With 2.1 people per square kilometer, city_name is ranked 17th on our list.
+City_name is placed 17th on our list, with 2.1 people per square kilometre."
+,,smooth traffic,commute time,top 25%,"city_name's traffic is very smooth, only need 23.1 mins to commute, ranking 23rd
+The traffic in city name is quite smooth. It takes approximately 23.1 minutes to commute, ranking 23rd on our city list."
+,,heavy traffic,,below 25%,"city_name's traffic is very smooth, they need 23.1 mins to commute, ranking 200th
+The traffic in city_name is fairly smooth. It takes them approximately 23.1 minutes to commute, ranking the 200th on our city list. "
+,,Fresh air,air quality,top 25%,"The air quality in city_name is 35, ranking 25th
+The air quality in city_name is 35, which places it the 25th on our city list.
+The air quality in city_name is quite good, with an index of 35, indicating the air is safe to breathe in. "
+,Education,Lots of school,"schools per 100,000 people",top 25%,"There are 52 schools per 100,000 people, ranking 58th
+There are 52 schools per 100,000 inhabitants, making it the 58th most densely populated city on our city list.
+City_name is ranked the 58th on our list, with 52 schools per 100,000 residents."
+,,Nice educational resource,"expend, per student",top 25%,"Expend per student is $21,526, ranking 23rd.
+The average expenditure per student is $21,526, which ranked the 23rd on our city list. 
+The average student spending is $21,526, which places it 23rd on our list of cities."
+,Crime,Safe city,"Violent per 100,000 people",below 25%,"Violent Crime per 10,000 is below average 40%, ranking 215th
+The rate of violent crime per 10,000 is below the national average of 40%, ranking the 215th on our city list.  
+The violent crime rate per 10,000 is lower than the national average of 40%, placing it 215th on our list."
+,,More violent crime,,top 25%,"Violent Crime per 10,000 is above average 27%, ranking 65th
+The rate of violent crime per 10,000 is above the national average of 27%, ranking the 65th on our city list.  
+The violent crime rate per 10,000 is higher than the national average of 27%, placing it 65th on our list."
+,,Safe city,"Property crime per 100,000 people",below 25%,"Property Crime per 10,000 is below average 42%, ranking 265th
+Property crime per 10,000 is lower than the national average of 42 percent, placing it 265th place."
+,,More property crime,,top 25%,"Property Crime per 10,000 is above average 37%, ranking 96th
+Property crime per 10,000 is higher than the national average of 37 percent, placing it 96th place."
