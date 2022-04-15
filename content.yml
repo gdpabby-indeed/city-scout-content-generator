@@ -196,62 +196,63 @@ air quality:
     {inverse_rank} for poorest air quality on our list.'
   51-100: '{city} has moderate air quality. With a an Air Quality Index of {air quality},
     the EPA only recommends caution to people who are very sensitive to pollution.'
-avg. rainfall per year (mm):
+avg. rainfall per year (inch):
   bottom25%: '{city} is very dry. With an annual rainfall of just {avg. rainfall per
-    year (mm)} inches, it has the {inverse_rank} lowest rainfall on the city list.
+    year (inch)} inches, it has the {inverse_rank} lowest rainfall on the city list.
     |
 
     The weather in {city} is very dry, with an annual rainfall of only {avg. rainfall
-    per year (mm)} inches. This city is {rank} in rainfall on our list of cities.
+    per year (inch)} inches. This city is {rank} in rainfall on our list of cities.
     |
 
     This city has a dry climate, with an annual rainfall of just {avg. rainfall per
-    year (mm)} inches, ranking it {rank} on our list. '
+    year (inch)} inches, ranking it {rank} on our list. '
   middle50%: 'Whenit comes to rain, {city} is fairly average, with an annual rainfall
-    of {avg. rainfall per year (mm)} inches, it has the {inverse_rank} lowest rainfall
+    of {avg. rainfall per year (inch)} inches, it has the {inverse_rank} lowest rainfall
     on the city list. |
 
     The weather in {city} includes an annual rainfall of about {avg. rainfall per
-    year (mm)} inches. This city is only {rank} in rainfall on our list of cities.
+    year (inch)} inches. This city is only {rank} in rainfall on our list of cities.
     |
 
     This city has a normal climate, with an annual rainfall of just {avg. rainfall
-    per year (mm)} inches, ranking it {rank} on our list. '
+    per year (inch)} inches, ranking it {rank} on our list. '
   top15%: '{city} is very wet. With an annual rainfall of {avg. rainfall per year
-    (mm)} inches, it has the {rank} highest rainfall on the city list. |
+    (inch)} inches, it has the {rank} highest rainfall on the city list. |
 
     The weather in {city} is very rainy, with an annual rainfall of {avg. rainfall
-    per year (mm)} inches. This city is {rank} in rainfall on our list of cities.
+    per year (inch)} inches. This city is {rank} in rainfall on our list of cities.
     |
 
     This city has a wet climate, with an annual rainfall of {avg. rainfall per year
-    (mm)} inches, ranking it {rank} on our list. '
-avg. snow per year (mm):
+    (inch)} inches, ranking it {rank} on our list. '
+avg. snow per year (inch):
   bottom15%: '{city} normally gets hardly any snow. It is the {inverse_rank} least
     snowy on our city list. |
 
-    {city} normally gets almost no snow, with just {avg. snow per year (mm)} inches
+    {city} normally gets almost no snow, with just {avg. snow per year (inch)} inches
     of annual snowfall. It is the {inverse_rank} least snowy on the city list. |
 
     Winter weather in {city} brings barely any snow, or none at all. This puts {city}
     {inverse_rank} in on the list of cities with the least snow.'
   middle70%: '{city} is not very snowy. With an annual snowfall of up to {avg. snow
-    per year (mm)} inches, it has the {rank} highest inches of snow on our city list
-    and the {inverse_rank} lowest. |
+    per year (inch)} inches, it has the {rank} highest inches of snow on our city
+    list and the {inverse_rank} lowest. |
 
-    Winter weather in {city} brings only as much as {avg. snow per year (mm)} inches
+    Winter weather in {city} brings only as much as {avg. snow per year (inch)} inches
     of snow. This puts {city} just {rank} in on the list of cities with the most snow.
     |
 
     This city has a pretty average climate, with as little as {avg. snow per year
-    (mm)} inches of snow per year, ranking it {rank} on our list. '
-  top15%: '{city} is very snowy. With an annual snowfall of {avg. snow per year (mm)}
+    (inch)} inches of snow per year, ranking it {rank} on our list. '
+  top15%: '{city} is very snowy. With an annual snowfall of {avg. snow per year (inch)}
     inches, it has the {rank} highest inches of snow on our city list. |
 
-    Winter weather in {city} brings as much as {avg. snow per year (mm)} inches of
-    snow. This puts {city} {rank} in on the list of cities with the most snow. |
+    Winter weather in {city} brings as much as {avg. snow per year (inch)} inches
+    of snow. This puts {city} {rank} in on the list of cities with the most snow.
+    |
 
-    This city has a cold and snowy climate, with as many as {avg. snow per year (mm)}
+    This city has a cold and snowy climate, with as many as {avg. snow per year (inch)}
     inches of snow per year, ranking it {rank} on our list. '
 commute time (min):
   bottom25%: 'The average commute time in {city} is just {commute time (min)} minutes.

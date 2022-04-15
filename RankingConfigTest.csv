@@ -1,7 +1,7 @@
 Metric,Include?,High == good?,Weight,,,,,
 air quality,yes,FALSE,B,,,,,
-avg. rainfall per year (mm),yes,N/A,C,changed metrics to (mm),,,,
-avg. snow per year (mm),yes,N/A,C,,,,,
+avg. rainfall per year (inch),yes,N/A,C,changed metrics to (mm),,,,
+avg. snow per year (inch),yes,N/A,C,,,,,
 commute time (min),yes,FALSE,A,,,,,
 density,yes,N/A,B,,,,,
 "expend, per student",top,TRUE,C,,,,,
@@ -15,7 +15,7 @@ median age,bottom,N/A,C,,,,,
 median home value,yes,FALSE,B,,,,,
 median home value growth percentage,N/A,N/A,B,,,MITCH - missing info,,top
 median household income,N/A,TRUE,B,Need to change the name in 214(BB),,Missing in opening paragraph also,,yes
-population,yes,N/A,A,,,,,
+population,yes,N/A,A,Should population be N/A,,,,
 population growth percentage,N/A,N/A,B,,,MITCH - missing info,,top
 poverty rate,yes,FALSE,B,,,,,
 school_record,top,TRUE,C,changed the header in the dataset but the data might not be per 100000,,,,

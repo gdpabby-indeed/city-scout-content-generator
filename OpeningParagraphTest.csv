@@ -149,23 +149,23 @@ With an average temperature of {winter avg temp F}°F in the winter, {city} rank
 ,bottom25%,"{city}'s winter is very cold. The average temperature in winter is just {winter avg temp F}°F, ranking this as the {inverse_rank} coldest winter city. |
 Winter in {city} is quite cold, with an average temperature of {winter avg temp F}°F, ranking it {inverse_rank} coldest on our city list. |
 With an average temperature of just {winter avg temp F}°F in the winter, {city} ranks {inverse_rank} on our list of coldest winter cities."
-avg. rainfall per year (mm),top15%,"{city} is very wet. With an annual rainfall of {avg. rainfall per year (mm)} inches, it has the {rank} highest rainfall on the city list. |
-The weather in {city} is very rainy, with an annual rainfall of {avg. rainfall per year (mm)} inches. This city is {rank} in rainfall on our list of cities. |
-This city has a wet climate, with an annual rainfall of {avg. rainfall per year (mm)} inches, ranking it {rank} on our list. "
-,middle50%,"Whenit comes to rain, {city} is fairly average, with an annual rainfall of {avg. rainfall per year (mm)} inches, it has the {inverse_rank} lowest rainfall on the city list. |
-The weather in {city} includes an annual rainfall of about {avg. rainfall per year (mm)} inches. This city is only {rank} in rainfall on our list of cities. |
-This city has a normal climate, with an annual rainfall of just {avg. rainfall per year (mm)} inches, ranking it {rank} on our list. "
-,bottom25%,"{city} is very dry. With an annual rainfall of just {avg. rainfall per year (mm)} inches, it has the {inverse_rank} lowest rainfall on the city list. |
-The weather in {city} is very dry, with an annual rainfall of only {avg. rainfall per year (mm)} inches. This city is {rank} in rainfall on our list of cities. |
-This city has a dry climate, with an annual rainfall of just {avg. rainfall per year (mm)} inches, ranking it {rank} on our list. "
-avg. snow per year (mm),top15%,"{city} is very snowy. With an annual snowfall of {avg. snow per year (mm)} inches, it has the {rank} highest inches of snow on our city list. |
-Winter weather in {city} brings as much as {avg. snow per year (mm)} inches of snow. This puts {city} {rank} in on the list of cities with the most snow. |
-This city has a cold and snowy climate, with as many as {avg. snow per year (mm)} inches of snow per year, ranking it {rank} on our list. "
-,middle70%,"{city} is not very snowy. With an annual snowfall of up to {avg. snow per year (mm)} inches, it has the {rank} highest inches of snow on our city list and the {inverse_rank} lowest. |
-Winter weather in {city} brings only as much as {avg. snow per year (mm)} inches of snow. This puts {city} just {rank} in on the list of cities with the most snow. |
-This city has a pretty average climate, with as little as {avg. snow per year (mm)} inches of snow per year, ranking it {rank} on our list. "
+avg. rainfall per year (inch),top15%,"{city} is very wet. With an annual rainfall of {avg. rainfall per year (inch)} inches, it has the {rank} highest rainfall on the city list. |
+The weather in {city} is very rainy, with an annual rainfall of {avg. rainfall per year (inch)} inches. This city is {rank} in rainfall on our list of cities. |
+This city has a wet climate, with an annual rainfall of {avg. rainfall per year (inch)} inches, ranking it {rank} on our list. "
+,middle50%,"Whenit comes to rain, {city} is fairly average, with an annual rainfall of {avg. rainfall per year (inch)} inches, it has the {inverse_rank} lowest rainfall on the city list. |
+The weather in {city} includes an annual rainfall of about {avg. rainfall per year (inch)} inches. This city is only {rank} in rainfall on our list of cities. |
+This city has a normal climate, with an annual rainfall of just {avg. rainfall per year (inch)} inches, ranking it {rank} on our list. "
+,bottom25%,"{city} is very dry. With an annual rainfall of just {avg. rainfall per year (inch)} inches, it has the {inverse_rank} lowest rainfall on the city list. |
+The weather in {city} is very dry, with an annual rainfall of only {avg. rainfall per year (inch)} inches. This city is {rank} in rainfall on our list of cities. |
+This city has a dry climate, with an annual rainfall of just {avg. rainfall per year (inch)} inches, ranking it {rank} on our list. "
+avg. snow per year (inch),top15%,"{city} is very snowy. With an annual snowfall of {avg. snow per year (inch)} inches, it has the {rank} highest inches of snow on our city list. |
+Winter weather in {city} brings as much as {avg. snow per year (inch)} inches of snow. This puts {city} {rank} in on the list of cities with the most snow. |
+This city has a cold and snowy climate, with as many as {avg. snow per year (inch)} inches of snow per year, ranking it {rank} on our list. "
+,middle70%,"{city} is not very snowy. With an annual snowfall of up to {avg. snow per year (inch)} inches, it has the {rank} highest inches of snow on our city list and the {inverse_rank} lowest. |
+Winter weather in {city} brings only as much as {avg. snow per year (inch)} inches of snow. This puts {city} just {rank} in on the list of cities with the most snow. |
+This city has a pretty average climate, with as little as {avg. snow per year (inch)} inches of snow per year, ranking it {rank} on our list. "
 ,bottom15%,"{city} normally gets hardly any snow. It is the {inverse_rank} least snowy on our city list. |
-{city} normally gets almost no snow, with just {avg. snow per year (mm)} inches of annual snowfall. It is the {inverse_rank} least snowy on the city list. |
+{city} normally gets almost no snow, with just {avg. snow per year (inch)} inches of annual snowfall. It is the {inverse_rank} least snowy on the city list. |
 Winter weather in {city} brings barely any snow, or none at all. This puts {city} {inverse_rank} in on the list of cities with the least snow."
 density,top25%,"{city} has {density} people per square mile, which is pretty crowded compared to other cities, ranking it as the {rank} most densely populated city on our list. |
 With {density} people per square mile, {city} is densely populated, making it the {rank} most crowded city on our list. |
