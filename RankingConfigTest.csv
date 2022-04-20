@@ -4,13 +4,13 @@ avg. rainfall per year (inch),yes,N/A,C,changed metrics to (mm),,,,
 avg. snow per year (inch),yes,N/A,C,,,,,
 commute time (min),yes,FALSE,A,,,,,
 density,yes,N/A,B,,,,,
-"expend, per student",top,TRUE,C,,,,,
+"expend, per student $",top,TRUE,C,,,,,
 GDP,yes,TRUE,B,,,,,
 Good&service index,yes,TRUE,A,,,,,
 Grocery Index ,yes,TRUE,A,,,,,
 Healthcare index,yes,TRUE,A,,,,,
 Housing Index,yes,TRUE,A,,,,,
-2019 job opportunity,yes,TRUE,A,Adding a new column to the dataset by this name copying data from unemployment rate,,,,
+2019 job opportunity_normalized,yes,TRUE,A,Adding a new column to the dataset by this name copying data from unemployment rate,,,,
 median age,bottom,N/A,C,,,,,
 median home value,yes,FALSE,B,,,,,
 median home value growth percentage,N/A,N/A,B,,,MITCH - missing info,,top
@@ -18,8 +18,8 @@ median household income,N/A,TRUE,B,Need to change the name in 214(BB),,Missing i
 population,yes,N/A,A,Should population be N/A,,,,
 population growth percentage,N/A,N/A,B,,,MITCH - missing info,,top
 poverty rate,yes,FALSE,B,,,,,
-school_record,top,TRUE,C,changed the header in the dataset but the data might not be per 100000,,,,
-six figure household percentage,N/A,TRUE,C,Need to change the name of the header(BC),,MITCH - missing info,,top
+school_record_normalized,top,TRUE,C,changed the header in the dataset but the data might not be per 100000,,,,
+six figure household percentage,yes,TRUE,C,Need to change the name of the header(BC),,MITCH - missing info,,top
 summer high,yes,N/A,C,"There are 2 columns, do we use f one or without f(N,O)",,,,
 unemployment rate,bottom,FALSE,B,,,,,
 Utilities index,yes,TRUE,A,,,,,

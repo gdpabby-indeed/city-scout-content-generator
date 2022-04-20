@@ -1,8 +1,8 @@
-2019 job opportunity:
+2019 job opportunity_normalized:
   bottom25%: '{city} has a low volume of job opportunities, with only about {2019
     job opportunity} positions available. |
 
-    There are currently about {2019 job opportunity} employment opportunites here,
+    There are currently about {2019 job opportunity} employment opportunities here,
     making {city} the {rank} on our city list to find a job. |
 
     The number of job openings here is low at {2019 job opportunity}, putting {city}
@@ -11,7 +11,7 @@
     {2019 job opportunity} positions available, ranking this city {rank} on our city
     list for job openings. |
 
-    There are currently about {2019 job opportunity} employment opportunites in {city}.
+    There are currently about {2019 job opportunity} employment opportunities in {city}.
     |
 
     The number of job openings here is okay at {2019 job opportunity}, putting {city}
@@ -19,19 +19,17 @@
   top25%: '{city} has a large volume of job opportunities, with about {2019 job opportunity}
     positions available. |
 
-    There are currently about {2019 job opportunity} employment opportunites in {city}.
+    There are currently about {2019 job opportunity} employment opportunities in {city}.
     |
 
     The number of job openings here is excellent at {2019 job opportunity}, putting
     {city} {rank} on our list of cities'' job prospects.'
 GDP:
-  top25%: '{city} is a wealthy city with a GDP of {GDP}. |
+  top25%: '{city} is a wealthy city, whose GDP grew by {GDP}% year over year. |
 
-    {city} is a prosperous city with a GDP of {GDP}. |
+    {city} is a prosperous city with a GDP growth of {GDP}%. |
 
-    {city}''s GDP of {GDP} makes it a prosperous city. |
-
-    The GDP of {city} is {GDP}, making it an affluent city.'
+    {city}''s GDP growth of {GDP}% makes it a prosperous city.'
 Good&service index:
   bottom25%: 'Goods and services in {city} are generally expensive, with an index
     of {Good&service index}, which ranks the city as having the {inverse_rank} highest
@@ -284,7 +282,7 @@ density:
     With just {density} people per square mile, {city} is sparsely populated, making
     it the {inverse_rank} least crowded city on our list. |
 
-    This is a not crowded city. {city}''s population density of only {density} persons
+    This is not a crowded city. {city}''s population density of only {density} persons
     per square mile places it {rank} on our list pf cities based on density.'
   middle50%: '{city} has just {density} people per square mile, which makes it pretty
     average compared to other cities, ranking it as the {rank} most densely populated
@@ -305,35 +303,35 @@ density:
 
     This is a crowded city. {city}''s population density of {density} persons per
     square mile places it {rank} on our list pf cities based on density.'
-expend, per student:
-  bottom25%: 'The average amount spent per student is only {expend, per student},
+expend, per student $:
+  bottom25%: 'The average amount spent per student is only {expend, per student $},
     ranking {city} a low {rank} on our city list in terms of educational priorities.
     |
 
     {city} does not seem to prioritize education, with the average amount spent per
-    student of just {expend, per student}. This ranks the city {rank} on our city
+    student of just {expend, per student $}. This ranks the city {rank} on our city
     list. |
 
-    The average amount spent per student is relatively low at just {expend, per student}.
-    This places {city} {rank} on our city list in terms of eductaional priorities.'
-  middle50%: 'The average amount spent per student is {expend, per student}, ranking
-    {city} at a midway {rank} on our city list in terms of eductaional priorities.
+    The average amount spent per student is relatively low at just {expend, per student
+    $}. This places {city} {rank} on our city list in terms of educational priorities.'
+  middle50%: 'The average amount spent per student is {expend, per student $}, ranking
+    {city} at a midway {rank} on our city list in terms of educational priorities.
     |
 
     {city}''s emphasis on education is about average, with the average amount spent
-    per student of {expend, per student}. This ranks the city {rank}, about the middle
-    of our city list. |
+    per student of {expend, per student $}. This ranks the city {rank}, about the
+    middle of our city list. |
 
-    The average amount spent per student is pretty average at {expend, per student}.
-    This places {city} {rank} on our city list in terms of eductaional priorities.'
-  top25%: 'The average amount spent per student is {expend, per student}, ranking
-    {city} a high {rank} on our city list in terms of eductaional priorities. |
+    The average amount spent per student is pretty average at {expend, per student
+    $}. This places {city} {rank} on our city list in terms of educational priorities.'
+  top25%: 'The average amount spent per student is {expend, per student $}, ranking
+    {city} a high {rank} on our city list in terms of educational priorities. |
 
     {city} prioritizes education, with the average amount spent per student of {expend,
-    per student}. This ranks the city {rank} on our city list. |
+    per student $}. This ranks the city {rank} on our city list. |
 
-    The average amount spent per student is relatively high at {expend, per student}.
-    This places {city} {rank} on our city list in terms of eductaional priorities.'
+    The average amount spent per student is relatively high at {expend, per student
+    $}. This places {city} {rank} on our city list in terms of educational priorities.'
 median age:
   bottom75%: '{city}''s population''s median age is {median age}. |
 
@@ -490,7 +488,7 @@ poverty rate:
     on our city list.|
 
     {city} is an affluent city with a relatively low {poverty rate}% poverty rate.'
-school_record:
+school_record_normalized:
   bottom25%: 'There are only {school_record} schools in this city, making {city} a
     place with comparatively less access to education. This ranks the city {rank}
     on our city list. |
@@ -526,58 +524,59 @@ six figure household percentage:
     as {six figure household percentage}% of the population earns a six-figure income.'
 summer high:
   bottom25%: "{city}'s summer temperatures are relatively low, with an average temperature\
-    \ of {summer avg temp F}\xB0F and a high of {summer high}\xB0F, making it the\
-    \ {inverse_rank} coolest on our summer city list. |\nSummers in {city} are fairly\
-    \ cool, with an average temperature of just {summer avg temp F}\xB0F and a high\
-    \ of {summer high}\xB0F. This ranks it as the {inverse_rank} coolest summer city\
-    \ on our list. |\n{city} in the summer ranks as the {inverse_rank} coolest city\
-    \ in our list, with an average temperature of {summer avg temp F}\xB0F and a high\
-    \ of {summer high}\xB0F. "
+    \ of {summer avg temp F}\xB0F and a high of {summer high (f)}\xB0F, making it\
+    \ the {inverse_rank} coolest on our summer city list. |\nSummers in {city} are\
+    \ fairly cool, with an average temperature of just {summer avg temp F}\xB0F and\
+    \ a high of {summer high (f)}\xB0F. This ranks it as the {inverse_rank} coolest\
+    \ summer city on our list. |\n{city} in the summer ranks as the {inverse_rank}\
+    \ coolest city in our list, with an average temperature of {summer avg temp F}\xB0\
+    F and a high of {summer high (f)}\xB0F. "
   middle50%: "{city}'s summer temperatures are pleasantly mild, with an average temperature\
-    \ of {summer avg temp F}\xB0F and a high of {summer high}\xB0F, making it just\
-    \ the {rank} warmest on our summer city list. |\nSummers in {city} are temperate,\
+    \ of {summer avg temp F}\xB0F and a high of {summer high (f)}\xB0F, making it\
+    \ just the {rank} warmest on our summer city list. |\nSummers in {city} are temperate,\
     \ with an average temperature of {summer avg temp F}\xB0F and a high of {summer\
-    \ high}\xB0F. This ranks it midway at {rank} on our summer city list. |\n{city}\
-    \ in the summer ranks as the {rank} warmest city in our list, with an average\
-    \ mild temperature of {summer avg temp F}\xB0F and a high of {summer high}\xB0\
+    \ high (f)}\xB0F. This ranks it midway at {rank} on our summer city list. |\n\
+    {city} in the summer ranks as the {rank} warmest city in our list, with an average\
+    \ mild temperature of {summer avg temp F}\xB0F and a high of {summer high (f)}\xB0\
     F. "
   top25%: "{city}'s summer temperatures are relatively high, with an average temperature\
-    \ of {summer avg temp F}\xB0F and a high of {summer high}\xB0F, making it the\
-    \ {rank} hottest on our summer city list. |\nSummers in {city} are hot, with an\
-    \ average temperature of {summer avg temp F}\xB0F and a high of {summer high}\xB0\
-    F. This ranks it as the {rank} warmest summer city on our list. |\n{city} in the\
-    \ summer ranks as the {rank} hottest city in our list, with an average temperature\
-    \ of {summer avg temp F}\xB0F and a high of {summer high}\xB0F. "
+    \ of {summer avg temp F}\xB0F and a high of {summer high (f)}\xB0F, making it\
+    \ the {rank} hottest on our summer city list. |\nSummers in {city} are hot, with\
+    \ an average temperature of {summer avg temp F}\xB0F and a high of {summer high\
+    \ (f)}\xB0F. This ranks it as the {rank} warmest summer city on our list. |\n\
+    {city} in the summer ranks as the {rank} hottest city in our list, with an average\
+    \ temperature of {summer avg temp F}\xB0F and a high of {summer high (f)}\xB0\
+    F. "
 unemployment rate:
-  bottom25%: '{city}''s low unemployment rate of {unemployment rate}, which ranks
-    the {rank} lowest on our city list, may mean fewer job applicants and lower competition
-    for available jobs. |
+  bottom25%: '{city}''s high unemployment rate of {unemployment rate}%, which ranks
+    the {rank} highest on our city list, means potentially more job applicants and
+    possibly higher competition for available jobs. |
 
-    The unemployment rate in {city} is a low {unemployment rate}, which places it
-    {rank} on our city list of and may mean less competition to fill available job
-    openings. |
-
-    The {unemployment rate} unemployment rate in {city}, the {rank} lowest on our
-    city list, may potentially make this city a relatively easy place to find a job.'
-  middle50%: '{city}''s mid-level unemployment rate of {unemployment rate}, which
-    ranks the {rank} on our city list, means an average amount of competition for
-    available jobs. |
-
-    The unemployment rate in {city} is {unemployment rate}, which places it {rank}
-    on our city list. |
-
-    The {unemployment rate} unemployment rate in {city} is the {rank} lowest and the
-    {inverse_rank} highest on our city list.'
-  top25%: '{city}''s high unemployment rate of {unemployment rate}, which ranks the
-    {rank} highest on our city list, means potentially more job applicants and possibly
-    higher competition for available jobs. |
-
-    The unemployment rate in {city} is a high {unemployment rate}, which places it
+    The unemployment rate in {city} is a high {unemployment rate}%, which places it
     {rank} on our city list of and may mean more competition to fill available job
     openings. |
 
-    The {unemployment rate} unemployment rate in {city}, the {rank} highest on our
+    The {unemployment rate}% unemployment rate in {city}, the {rank} highest on our
     city list, may make this city a relatively difficult place to find a job.'
+  middle50%: '{city}''s mid-level unemployment rate of {unemployment rate}%, which
+    ranks the {rank} on our city list, means an average amount of competition for
+    available jobs. |
+
+    The unemployment rate in {city} is {unemployment rate}%, which places it {rank}
+    on our city list. |
+
+    The {unemployment rate}% unemployment rate in {city} is the {rank} lowest and
+    the {inverse_rank} highest on our city list.'
+  top25%: '{city}''s low unemployment rate of {unemployment rate}%, which ranks the
+    {rank} lowest on our city list, may mean fewer job applicants and lower competition
+    for available jobs. |
+
+    The unemployment rate in {city} is a low {unemployment rate}%, which places it
+    {rank} on our city list of and may mean less competition to fill available job
+    openings. |
+
+    The {unemployment rate}% unemployment rate in {city}, the {rank} lowest on our
+    city list, may potentially make this city a relatively easy place to find a job.'
 winter low:
   bottom25%: "{city}'s winter is very cold. The average temperature in winter is just\
     \ {winter avg temp F}\xB0F, ranking this as the {inverse_rank} coldest winter\
