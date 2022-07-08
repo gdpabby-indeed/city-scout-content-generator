@@ -1,29 +1,32 @@
 2019 job opportunity_normalized:
-  bottom25%: '{city} has a low volume of job opportunities, with only about {2019
-    job opportunity} positions available. |
+  bottom25%: '{city} has a low volume of job opportunities relative to the population,
+    with only about {2019 job opportunity} positions available. |
 
-    There are currently about {2019 job opportunity} employment opportunities here,
-    making {city} the {rank} on our city list to find a job. |
+    There are currently only about {2019 job opportunity} employment opportunities
+    here, making {city} the {rank} on our city list to find a job. |
 
-    The number of job openings here is low at {2019 job opportunity}, putting {city}
-    only {rank} on our list of cities'' job prospects.'
-  middle50%: '{city} has a pretty average volume of job opportunities, with about
-    {2019 job opportunity} positions available, ranking this city {rank} on our city
-    list for job openings. |
-
-    There are currently about {2019 job opportunity} employment opportunities in {city}.
-    |
-
-    The number of job openings here is okay at {2019 job opportunity}, putting {city}
-    {rank} on our list of cities'' job prospects.'
-  top25%: '{city} has a large volume of job opportunities, with about {2019 job opportunity}
-    positions available. |
+    The number of job openings here is low relative to the population, with {2019
+    job opportunity} jobs available. This puts {city} only {rank} on our list of cities''
+    job prospects.'
+  middle50%: '{city} has an average volume of job opportunities relative to the population,
+    with about {2019 job opportunity} positions available, ranking this city {rank}
+    on our city list for job prospects. |
 
     There are currently about {2019 job opportunity} employment opportunities in {city}.
     |
 
-    The number of job openings here is excellent at {2019 job opportunity}, putting
-    {city} {rank} on our list of cities'' job prospects.'
+    The number of job openings here is average relative to the population. With {2019
+    job opportunity} jobs available, {city} ranks {rank} on our list of cities'' job
+    opportunities.'
+  top25%: '{city} has a large volume of job opportunities relative to the population,
+    with about {2019 job opportunity} positions available. |
+
+    There are currently about {2019 job opportunity} employment opportunities in {city}.
+    |
+
+    The number of job openings here is high relative to the population, with {2019
+    job opportunity} jobs available. This puts {city} {rank} on our {list-length}
+    city list of job prospects.'
 GDP:
   top25%: '{city} is a wealthy city, whose GDP grew by {GDP}% year over year. |
 
@@ -255,17 +258,17 @@ avg. snow per year (inch):
 commute time (min):
   bottom25%: 'The average commute time in {city} is just {commute time (min)} minutes.
     Whether from sparse traffic or just shorter distances in from the suburbs, this
-    relatively quick drive ranks {city} {rank} in terms of commute time on our list
-    of cities. |
+    relatively quick drive ranks {city} {rank} in terms of commute time on our {list-length}
+    city list of cities. |
 
     {city}''s average commute time is pretty short: just {commute time (min)} minutes.
-    This is the {inverse_rank} shortest commute time on our city list.'
+    This is the {inverse_rank} shortest commute time on our {list-length} city list.'
   middle50%: 'The average commute time in {city} is {commute time (min)} minutes.
     Whether from the traffic or just the distances in from the suburbs, this is a
     pretty typical drive time, which ranks {city} near the middle at {rank} on our
     list of cities. |
 
-    {city}''s average commute time is pretty average: just {commute time (min)} minutes.
+    {city}''s average commute time is pretty average: {commute time (min)} minutes.
     This is the {inverse_rank} shortest commute time on our city list, and the {rank}
     longest.'
   top25%: 'The average commute time in {city} is {commute time (min)} minutes. Whether
@@ -273,17 +276,18 @@ commute time (min):
     {city} {rank} in terms of commute time on our list of cities. |
 
     {city}''s average commute time is pretty long: about {commute time (min)} minutes.
-    This is the {rank} longest commute time on our city list. |'
+    This is the {rank} longest commute time on our {list-length} city list. |'
 density:
   bottom25%: '{city} has only {density} people per square mile, which is pretty sparse
     compared to other cities, ranking it as the {inverse_rank} least densely populated
-    city on our list. |
+    city on our {list-length} city list. |
 
     With just {density} people per square mile, {city} is sparsely populated, making
-    it the {inverse_rank} least crowded city on our list. |
+    it the {inverse_rank} least crowded city on our {list-length} city list. |
 
     This is not a crowded city. {city}''s population density of only {density} persons
-    per square mile places it {rank} on our list pf cities based on density.'
+    per square mile places it {rank} on our {list-length} city list of cities based
+    on density.'
   middle50%: '{city} has just {density} people per square mile, which makes it pretty
     average compared to other cities, ranking it as the {rank} most densely populated
     city on our list and the {inverse_rank} least dense. |
@@ -293,16 +297,18 @@ density:
     dense. |
 
     This is a not a crowded city. {city}''s population density of {density} persons
-    per square mile places it just {rank} on our list pf cities based on density.'
+    per square mile places it just {rank} on our {list-length} city list of cities
+    based on density.'
   top25%: '{city} has {density} people per square mile, which is pretty crowded compared
-    to other cities, ranking it as the {rank} most densely populated city on our list.
-    |
+    to other cities, ranking it as the {rank} most densely populated city on our {list-length}
+    city list. |
 
     With {density} people per square mile, {city} is densely populated, making it
-    the {rank} most crowded city on our list. |
+    the {rank} most crowded city on our {list-length} list. |
 
     This is a crowded city. {city}''s population density of {density} persons per
-    square mile places it {rank} on our list pf cities based on density.'
+    square mile places it {rank} on our {list-length} city list of cities based on
+    density.'
 expend, per student $:
   bottom25%: 'The average amount spent per student is only {expend, per student $},
     ranking {city} a low {rank} on our city list in terms of educational priorities.
@@ -335,9 +341,6 @@ expend, per student $:
 median age:
   bottom75%: '{city}''s population''s median age is {median age}. |
 
-    The median age in {city} is {median age}. Only {inverse_rank} of the other cities
-    on our list have a higher median age. |
-
     {city}''s inhabitants have a median age of {median age}, which ranks {inverse_rank}
     lowest compared to other cities. '
   top25%: '{city}''s population''s median age is {median age}, higher than {inverse_rank}
@@ -348,35 +351,39 @@ median age:
     {city}''s inhabitants have a median age of {median age}. '
 median home value:
   bottom45%: 'The average home price here is fairly low at {average_home}, ranking
-    {city} the {inverse_rank} lowest on our city ilst of housing prices. |
+    {city} the {inverse_rank} lowest on our {list-length} city list of housing prices.
+    |
 
     Buying a home in {city} is quite affordable. Housing prices here rank at the {inverse_rank}
-    lowest on our city list, with an average price of {average_home} per house. |
+    lowest on our {list-length} city list, with an average price of {average_home}
+    per house. |
 
     The cost of real estate in {city} is fairly low. With the average price for a
     house of just {average_home}, this is the {inverse_rank} least expensive city
-    on our list.'
+    on our {list-length} city list.'
   middle25%: 'The average home price here is about average, at {average_home}, ranking
-    {city} as the {rank} highest on our city ilst of housing prices. |
+    {city} as the {rank} highest on our {list-length} city list of housing prices.
+    |
 
     Buying a home in {city} is less expensive than in {inverse_rank} of the other
-    cities on our list, with an average price of {average_home} per house. |
+    cities on our {list-length} city list, with an average price of {average_home}
+    per house. |
 
     The cost of real estate in {city} is more affordable than {inverse_rank} of our
     cities. With the average price for a house of {average_home}, this is the {rank}
     most expensive city on our list.'
   top30%: 'The average home price here is high, at {median_home}, ranking {city} the
-    {rank} highest on our city list of housing prices. |
+    {rank} highest on our {list-length} city list of housing prices. |
 
     Buying a home in {city} is relatively expensive. Housing prices here rank at the
-    {rank} highest on our city list, with an average price of {median_home} per house.
-    |
+    {rank} highest on our {list-length} city list, with an average price of {median_home}
+    per house. |
 
     With an average home cost of {median_home}, {city} is the {rank} most expensive
-    city on our list.'
+    city on our {list-length} city list.'
 median home value growth percentage:
   bottom25%: 'The median home value in {city} has shrunk in the last three years,
-    the {inverse_rank} slowest growing on our city list. |
+    the {inverse_rank} slowest growing on our {list-length} city list. |
 
     In the previous three years, {city} has ranked {rank} in terms of growth in median
     home value. |
@@ -384,15 +391,15 @@ median home value growth percentage:
     {city} had the {inverse_rank} slowest growing median home value over the last
     three years.'
   middle50%: 'The median home value in {city} has remained stable in the last three
-    years, just the {rank} fastest growing on our city list. |
+    years, just the {rank} fastest growing on our {list-length} city list. |
 
     In the previous three years, {city} has ranked {rank} in terms of growth in median
     home value. |
 
-    {city} had the {rank} fastest and the xxth slowest growing median home value over
-    the last three years.'
+    {city} had the {rank} fastest and the {inverse_rank} slowest growing median home
+    value over the last three years.'
   top25%: 'The median home value in {city} has grown in the last three years, the
-    {rank} fastest growing on our city list. |
+    {rank} fastest growing on our {list-length} city list. |
 
     In the previous three years, {city} has ranked {rank} in terms of growth in median
     home value. |
@@ -409,105 +416,111 @@ median household income:
     it the {rank} in wealth on our city list.'
 population:
   bottom25%: '{city} is a small city. It has only {population} people living in it,
-    ranking it as the {inverse_rank} smallest population in our city list. |
+    ranking it as the {inverse_rank} smallest population in our {list-length} city
+    list. |
 
     {city} is a small city with a population of only {population} inhabitants. This
-    makes it the {inverse_rank} least populous city on our city list. |
+    makes it the {inverse_rank} least populous city on our {list-length} city list.
+    |
 
     With a population of only {population} inhabitants, {city} ranks as the {inverse_rank}
-    least populous on our city list. |
+    least populous on our {list-length} city list. |
 
     There are only {population} people living in {city}, making it a small city: the
-    {inverse_rank} smallest on our city list. '
+    {inverse_rank} smallest on our {list-length} city list. '
   middle50%: '{city} is an average-size city. It has {population} people living in
-    it, ranking it as the {inverse_rank} smallest population in our city list. |
+    it, ranking it as the {inverse_rank} smallest population in our {list-length}
+    city list. |
 
     {city} is a medium-size city with a population of {population} inhabitants. This
-    makes it the {rank} most populous city on our city list. |
+    makes it the {rank} most populous city on our {list-length} city list. |
 
     With a population of {population} inhabitants, {city} ranks as the {rank} most
-    populous on our city list. |
+    populous on our {list-length} city list. |
 
     There are {population} people living in {city}, making it a medium-sized city:
-    the {inverse_rank} smallest on our city list. '
+    the {inverse_rank} smallest on our {list-length} city list. '
   top10: '{city} is an enormous city. It has {population} people living in it, ranking
-    it the {rank} most populated city on our list. |
+    it the {rank} most populated city on our list of {list-length} cities. |
 
-    {city} ranks it as the {rank} most populous on our city list, with {population}
-    people living here. |
+    {city} ranks it as the {rank} most populous on our {list-length} city list, with
+    {population} people living here. |
 
     With a population of {population} people, {city} is the {rank} largest city on
-    our list. |
+    our list of {list-length} cities. |
 
-    This city has {population} inhabitants, ranking {rank} on our city list in terms
-    of population.'
+    This city has {population} inhabitants, ranking {rank} on our {list-length} city
+    list in terms of population.'
   top25%: '{city} is a huge city. It has {population} people living in it, ranking
-    it {rank} largest population in our city list. |
+    it {rank} largest population in our {list-length} city list. |
 
     {city} is a huge city with a population of {population} inhabitants. This makes
-    it the {rank} most populous city on our city list. |
+    it the {rank} most populous city on our {list-length} city list. |
 
     With a population of {population} inhabitants, {city} ranks as the {rank} most
-    populous on our city list. |
+    populous on our {list-length} city list. |
 
     There are {population} people living in {city}, ranking it the {rank} largest
-    on our city list. '
+    on our {list-length} city list. '
 population growth percentage:
   bottom25%: '{city}''s population is growing slowly based on the last 3 years of
-    data, ranking it as the {inverse_rank} slowest growing city on our list. |
+    data, ranking it as the {inverse_rank} slowest growing city on our {list-length}
+    city list. |
 
     Based on the last three years'' statistics, the {city} population growth is among
-    the country''s slowest, ranking just {rank} on our city list. |
+    the slowest on our list, ranking just {rank} on our {list-length} city list. |
 
     According to statistics from the last three years, {city} has a slow-growing population,
     ranking it the {inverse_rank} slowest growing. |
 
     According to statistics from the previous three years, {city} has the {inverse_rank}
-    slowest growing population in our city list.'
+    slowest growing population in our {list-length} city list.'
   middle50%: '{city}''s population is growing at an average rate based on the last
     three years of data, ranking it as the {rank} fastest growing city on our list,
     and the {inverse_rank} slowest. |
 
     Based on the last three years'' statistics, the {city} population growth is about
-    average in the country, ranking it at {rank} on our city list. |
+    average on our list, ranking it at {rank} on our {list-length} city list. |
 
     According to statistics from the last three years, {city} does not have a fast-growing
     population, ranking it the {rank} fastest growing and the {inverse_rank} slowest.'
   top25%: "{city}'s population is growing quickly based on the last three years of\
-    \ data, ranking it as the {rank} fastest growing city on our list. |\nBased on\
-    \ the last three years' statistics, the {city} population growth is among the\
-    \ country's fastest, ranking {rank} on our city list. | \nAccording to statistics\
-    \ from the last three years, {city} has a fast-growing population, ranking it\
-    \ the {rank} fastest growing. |\nAccording to statistics from the previous three\
-    \ years, {city} has the {rank} fastest growing population in our city list."
+    \ data, ranking it as the {rank} fastest growing city on our {list-length} city\
+    \ list. |\nBased on the last three years' statistics, the {city} population growth\
+    \ is among the fastest on our list, ranking {rank} on our {list-length} city list.\
+    \ | \nAccording to statistics from the last three years, {city} has a fast-growing\
+    \ population, ranking it the {rank} fastest growing. |\nAccording to statistics\
+    \ from the previous three years, {city} has the {rank} fastest growing population\
+    \ on our {list-length} city list."
 poverty rate:
   bottom25%: '{city} is a wealthy city, with a poverty rate of only {poverty rate}%.
     |
 
     With a poverty rate of only {poverty rate}%, {city} ranks as the {rank} most prosperous
-    on our city list.|
+    on our {list-length} city list.|
 
     {city} is an affluent city with a relatively low {poverty rate}% poverty rate.'
 school_record_normalized:
   bottom25%: 'There are only {school_record} schools in this city, making {city} a
-    place with comparatively less access to education. This ranks the city {rank}
-    on our city list. |
+    place with comparatively less access to education relative to its population.
+    This ranks the city {rank} on our city list. |
 
     {city} is {rank} on our list of cities in terms of education access. With just
-    {school_record} schools, there are fewer than average education opportunities. '
+    {school_record} schools, there are fewer than average education opportunities
+    compared to the city''s size.'
   middle50%: 'There are {school_record} schools in this city, making {city} a place
-    with average access to education. This ranks the city {rank} for schools on our
-    list. |
+    with average access to education relative to its population. This ranks the city
+    {rank} for schools on our list. |
 
     {city} provides an average number of education opportunities, with a total number
     of {school_record} schools. This puts {city} about midway at {rank} on our list
-    of cities in terms of education access.'
+    of cities in terms of education access compared to the city''s size.'
   top25%: 'There are {school_record} schools in this city, making this a place with
-    good access to education. This ranks the city {rank} for schools on our city list.
-    |
+    good access to education relative to its population. This ranks the city {rank}
+    for schools on our city list. |
 
     {city} is {rank} on our list of cities in terms of education access. With {school_record}
-    schools, there are plenty of education opportunities. '
+    schools, there are plenty of education opportunities compared to the city''s size. '
 six figure household percentage:
   top25%: '
 
@@ -572,8 +585,8 @@ unemployment rate:
     for available jobs. |
 
     The unemployment rate in {city} is a low {unemployment rate}%, which places it
-    {rank} on our city list of and may mean less competition to fill available job
-    openings. |
+    {rank} on our city list and may mean less competition to fill available job openings.
+    |
 
     The {unemployment rate}% unemployment rate in {city}, the {rank} lowest on our
     city list, may potentially make this city a relatively easy place to find a job.'
